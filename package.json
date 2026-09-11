@@ -1,5 +1,5 @@
 {
-  "name": "step-progress",
+  "name": "@aech1250/step-progress",
   "version": "1.0.0",
   "description": "A progress bar with step markers for React.",
   "main": "./dist/index.js",
