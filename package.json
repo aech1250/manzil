@@ -1,5 +1,5 @@
 {
-  "name": "@aech1250/step-progress",
+  "name": "manzil",
   "version": "1.0.0",
   "description": "A progress bar with step markers for React.",
   "main": "./dist/index.js",
@@ -51,9 +51,11 @@
     "typescript": "^5.6.3"
   },
   "keywords": [
+    "manzil",
     "react",
     "progress",
     "step-progress",
+    "stepper",
     "pill",
     "gradient",
     "shimmer",
@@ -64,10 +66,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aech1250/step-progress.git"
+    "url": "git+https://github.com/aech1250/manzil.git"
   },
   "bugs": {
-    "url": "https://github.com/aech1250/step-progress/issues"
+    "url": "https://github.com/aech1250/manzil/issues"
   },
-  "homepage": "https://github.com/aech1250/step-progress#readme"
+  "homepage": "https://github.com/aech1250/manzil#readme"
 }

@@ -1,4 +1,4 @@
-# step-progress
+# Manzil
 
 A progress bar with step markers for React. The track fills with a soft navy-to-ice-blue gradient as you advance, with a shimmer that runs only while there's progress left — it disappears on the final step.
 
@@ -7,14 +7,14 @@ Includes zero-dependency state management, interactive hooks, Tailwind slot styl
 ## Install
 
 ```bash
-npm i @aech1250/step-progress
+npm i manzil
 ```
 
 ## Basic Usage
 
 ```tsx
-import { StepProgress } from "@aech1250/step-progress";
-import "@aech1250/step-progress/styles.css";
+import { StepProgress } from "manzil";
+import "manzil/styles.css";
 
 const steps = ["Create Project", "Add Media", "Set Goals", "Team", "Launch"];
 
@@ -30,7 +30,7 @@ function Wizard() {
 Easily control steps without boilerplate state management:
 
 ```tsx
-import { StepProgress, useStepProgress } from "@aech1250/step-progress";
+import { StepProgress, useStepProgress } from "manzil";
 
 const steps = ["Cart", "Shipping", "Payment", "Confirm"];
 
@@ -56,7 +56,7 @@ function Checkout() {
 Automatically show loading spinner and shimmer while an async action is running:
 
 ```tsx
-import { stepProgress } from "@aech1250/step-progress";
+import { stepProgress } from "manzil";
 
 async function handlePayment() {
   await stepProgress.promise(submitPayment(), {
@@ -73,7 +73,7 @@ async function handlePayment() {
 Use custom icons (e.g. from Lucide or Heroicons) and granular Tailwind classes:
 
 ```tsx
-import { StepProgress } from "@aech1250/step-progress";
+import { StepProgress } from "manzil";
 import { Check, Loader2 } from "lucide-react";
 
 <StepProgress
