@@ -1,6 +1,6 @@
 # step-progress
 
-A pill-shaped progress bar with step markers for React. The track fills with a soft navy-to-ice-blue gradient as you advance, with a shimmer that runs only while there's progress left — it disappears on the final step.
+A progress bar with step markers for React. The track fills with a soft navy-to-ice-blue gradient as you advance, with a shimmer that runs only while there's progress left — it disappears on the final step.
 
 Includes zero-dependency state management, interactive hooks, Tailwind slot styling, and accessible keyboard navigation.
 
