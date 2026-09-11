@@ -60,14 +60,14 @@
     "ui",
     "component"
   ],
-  "author": "",
+  "author": "Hassan Amir <hassanamirorg@gmail.com> (https://github.com/aech1250)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-org/step-progress.git"
+    "url": "git+https://github.com/aech1250/step-progress.git"
   },
   "bugs": {
-    "url": "https://github.com/your-org/step-progress/issues"
+    "url": "https://github.com/aech1250/step-progress/issues"
   },
-  "homepage": "https://github.com/your-org/step-progress#readme"
+  "homepage": "https://github.com/aech1250/step-progress#readme"
 }
