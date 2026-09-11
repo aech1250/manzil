@@ -7,14 +7,14 @@ Includes zero-dependency state management, interactive hooks, Tailwind slot styl
 ## Install
 
 ```bash
-npm install step-progress
+npm i @aech1250/step-progress
 ```
 
 ## Basic Usage
 
 ```tsx
-import { StepProgress } from "step-progress";
-import "step-progress/styles.css";
+import { StepProgress } from "@aech1250/step-progress";
+import "@aech1250/step-progress/styles.css";
 
 const steps = ["Create Project", "Add Media", "Set Goals", "Team", "Launch"];
 
@@ -30,7 +30,7 @@ function Wizard() {
 Easily control steps without boilerplate state management:
 
 ```tsx
-import { StepProgress, useStepProgress } from "step-progress";
+import { StepProgress, useStepProgress } from "@aech1250/step-progress";
 
 const steps = ["Cart", "Shipping", "Payment", "Confirm"];
 
@@ -56,7 +56,7 @@ function Checkout() {
 Automatically show loading spinner and shimmer while an async action is running:
 
 ```tsx
-import { stepProgress } from "step-progress";
+import { stepProgress } from "@aech1250/step-progress";
 
 async function handlePayment() {
   await stepProgress.promise(submitPayment(), {
@@ -73,7 +73,7 @@ async function handlePayment() {
 Use custom icons (e.g. from Lucide or Heroicons) and granular Tailwind classes:
 
 ```tsx
-import { StepProgress } from "step-progress";
+import { StepProgress } from "@aech1250/step-progress";
 import { Check, Loader2 } from "lucide-react";
 
 <StepProgress
