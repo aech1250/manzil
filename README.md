@@ -13,7 +13,7 @@ npm install manzil
 Alternatively you can use the `/ask-manzil` skill to do it for you and help you with any other Manzil-related questions.
 
 ```bash
-npx skills add https://github.com/aech1250/skills --skill ask-manzil
+npx skills add https://github.com/aech1250/manzil --skill ask-manzil
 ```
 
 Add `<StepProgress />` to your app, it will be the place where your step progress will be rendered.
