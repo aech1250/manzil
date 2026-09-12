@@ -5,6 +5,8 @@ export function CheckIcon({ className }: { className?: string }) {
   return (
     <svg
       className={className}
+      width="16"
+      height="16"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
@@ -23,6 +25,8 @@ export function SpinnerIcon({ className }: { className?: string }) {
   return (
     <svg
       className={className}
+      width="16"
+      height="16"
       viewBox="0 0 24 24"
       fill="none"
       aria-hidden="true"
