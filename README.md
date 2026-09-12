@@ -1,4 +1,8 @@
-https://github.com/aech1250/manzil/assets/...
+
+https://github.com/user-attachments/assets/0dd5617f-3261-4a7c-b8c0-be2b140b6382
+Uploading manzil.mp4…
+
+
 
 [Manzil](https://github.com/aech1250/manzil) is a progress bar with step markers for React.
 
