@@ -14,7 +14,6 @@ npm i manzil
 
 ```tsx
 import { StepProgress } from "manzil";
-import "manzil/styles.css";
 
 const steps = ["Create Project", "Add Media", "Set Goals", "Team", "Launch"];
 

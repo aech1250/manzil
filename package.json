@@ -1,6 +1,6 @@
 {
   "name": "manzil",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A progress bar with step markers for React.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -24,11 +24,12 @@
     "dist"
   ],
   "sideEffects": [
-    "**/*.css"
+    "**/*.css",
+    "./dist/**"
   ],
   "scripts": {
-    "build": "tsup src/index.tsx --format cjs,esm --dts --external react --clean && node -e \"require('fs').copyFileSync('src/styles.css', 'dist/styles.css')\"",
-    "dev": "tsup src/index.tsx --format cjs,esm --dts --external react --watch",
+    "build": "tsup src/index.tsx --format cjs,esm --dts --external react --inject-style --clean && node -e \"require('fs').copyFileSync('src/styles.css', 'dist/styles.css')\"",
+    "dev": "tsup src/index.tsx --format cjs,esm --dts --external react --inject-style --watch",
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "npm run build"
   },
