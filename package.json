@@ -1,7 +1,7 @@
 {
   "name": "manzil",
   "version": "1.0.3",
-  "description": "A progress bar with step markers for React.",
+  "description": "A progress bar with steps for React.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

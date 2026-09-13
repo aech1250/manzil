@@ -1,6 +1,6 @@
 https://github.com/aech1250/manzil/assets/...
 
-[Manzil](https://github.com/aech1250/manzil) is a progress bar with step markers for React.
+[Manzil](https://github.com/aech1250/manzil) is a progress bar with steps for React.
 
 ## Usage
 
@@ -20,9 +20,9 @@ Add `<StepProgress />` to your app, it will be the place where your step progres
 After that you can use `useStepProgress` to easily manage and navigate between steps.
 
 ```jsx
-import { StepProgress, useStepProgress } from 'manzil';
+import { StepProgress, useStepProgress } from "manzil";
 
-const steps = ['Cart', 'Shipping', 'Payment', 'Confirm'];
+const steps = ["Cart", "Shipping", "Payment", "Confirm"];
 
 function App() {
   const { props, next, prev, isFirst, isLast } = useStepProgress({ steps });
@@ -44,10 +44,10 @@ function App() {
 You can also use it as a simple controlled component:
 
 ```jsx
-import { StepProgress } from 'manzil';
+import { StepProgress } from "manzil";
 
 function App() {
-  return <StepProgress steps={['Cart', 'Shipping', 'Payment']} value={1} />;
+  return <StepProgress steps={["Cart", "Shipping", "Payment"]} value={1} />;
 }
 ```
 
